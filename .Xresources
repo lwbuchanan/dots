@@ -1,0 +1,12 @@
+// Theming
+#include "Xresources.d/theme"
+
+// Global dpi
+Xft.dpi: 144
+
+// dmenu config
+//dmenu.font: FiraMono Nerd Font
+//dmenu.background: #282828
+//dmenu.foreground: #ebdbb2
+//dmenu.selbackground: #458588
+//dmenu.selforeground: #ebdbb2
