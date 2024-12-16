@@ -1,0 +1,16 @@
+# Global settings
+default-scheme = "base16-everforest"
+
+# Item configurations
+# [[items]]
+# name = "tinted-shell"
+# path = "https://github.com/tinted-theming/tinted-shell"
+# themes-dir = "scripts"
+# hook = "source %f"
+
+[[items]]
+path = "https://github.com/tinted-theming/tinted-xresources"
+name = "tinted-xresources"
+themes-dir = "xresources"
+hook = "cp -f %f ~/Xresources.d/theme && xrdb -load ~/.Xresources"
+supported-systems = ["base16", "base24"]
