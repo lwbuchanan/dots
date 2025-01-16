@@ -21,6 +21,9 @@ alias cd='z'
 alias snip='scrot -s - | xclip -selection clipboard -t image/png'
 alias dots='git --git-dir=/home/luke/.dots/ --work-tree=/home/luke'
 
+alias gpuoff='sudo envycontrol -s integrated'
+alias gpuon='sudo envycontrol -s nvidia --force-comp'
+
 # PS1='[\t] \u@\h\n\w > '
 PS1='\[\e[96m\]\u@\h\[\e[0m\] \[\e[34;3m\]\w\[\e[0m\] \[\e[93;1m\]\$\[\e[0m\] '
 eval "$(zoxide init bash)"
